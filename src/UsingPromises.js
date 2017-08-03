@@ -39,6 +39,7 @@ const element =
 	<div>
 		<h2>Using Promise</h2>
 		<a target='_blank' href={usingPromisesLink}>${usingPromisesLink}</a>
+		<h3>Main feature of ECMAScript 2017: Async Functions</h3>
 		<p>This symmetry with synchronous code culminates in the async/await syntactic sugar in ECMAScript 2017:</p>
 		<code>${asyncText}</code>
 	</div>;
