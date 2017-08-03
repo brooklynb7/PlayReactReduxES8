@@ -1,5 +1,14 @@
 import { combineReducers } from 'redux'
 
-const sampleApp = combineReducers({})
+let tabs = (state = [], action) => {
+    switch (action.type) {
+        default:
+            return state
+    }
+}
+
+const sampleApp = combineReducers({
+    tabs
+})
 
 export default sampleApp
